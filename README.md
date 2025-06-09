@@ -6,7 +6,7 @@ The **AI Video Thumbnail Generator** is an AI-powered tool that processes videos
 
 ### Video Explanation
 Watch a detailed explanation of the approach, implementation, and results:
- [https://drive.google.com/file/d/19vVmQrljInf9PT6pCNu1iATCcEmjod6h/view?usp=sharing]
+ ![https://drive.google.com/file/d/19vVmQrljInf9PT6pCNu1iATCcEmjod6h/view?usp=sharing]
 This project demonstrates skills in Python, OpenCV, PIL, YOLO, and debugging in a WSL environment.
 
 ### Key Highlights:
@@ -46,6 +46,21 @@ This project demonstrates skills in Python, OpenCV, PIL, YOLO, and debugging in 
 ├── yolov8n.pt # YOLOv8 model weights
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
+Project Structure
+
+├── videos/                    # Input videos (e.g., video1.mp4)
+├── thumbnails/                # Generated thumbnails
+├── original_frames/           # Extracted original frames
+├── comparisons/               # Side-by-side comparison images
+├── thumbnail_generator.py     # Main script for thumbnail generation
+├── extract_frames.py          # Extracts original frames
+├── create_comparisons.py      # Creates comparison images
+├── ariblk.ttf                 # Font file for text overlay
+├── yolov8n.pt                 # YOLOv8 model weights
+├── requirements.txt           # Dependencies
+└── README.md                  # Project documentation
+
+Deliverables
 ---
 
 ## Prerequisites
