@@ -6,8 +6,10 @@ The **AI Video Thumbnail Generator** is an AI-powered tool that processes videos
 
 ### Video Explanation
 Watch a detailed explanation of the approach, implementation, and results:
-## 📽️ Demo Video
+```
+## Demo Video
 [🔗 Watch the Demo Video](https://drive.google.com/file/d/19vVmQrljInf9PT6pCNu1iATCcEmjod6h/view?usp=sharing)
+```
 This project demonstrates skills in Python, OpenCV, PIL, YOLO, and debugging in a WSL environment.
 
 ### Key Highlights:
@@ -98,7 +100,8 @@ python3 extract_frames.py
 ```bash
 python3 create_comparisons.py
 ```
-Example Output
+###Example Output
+```
 Input Video: videos/video1_converted.mp4
 
 Generated Thumbnails:
@@ -112,20 +115,24 @@ original_frames/video1.mp4_original.jpg
 Comparison Image:
 comparisons/video1_comparison.jpg
 ```
-Challenges & Solutions
+###Challenges & Solutions
+```
 WSL Video Access Issue
 Problem: OpenCV failed to read certain videos
 Solution: Used FFmpeg to re-encode videos for compatibility
 ```
-Deprecated PIL Method
+###Deprecated PIL Method
+```
 Problem: textsize() deprecated in newer PIL versions
 Solution: Replaced with textbbox() for text dimension calculation
 ```
-Filename Mismatch
+###Filename Mismatch
+```
 Problem: Inconsistent naming between thumbnails and original frames
 Solution: Standardized naming conventions in thumbnail_generator.py and fixed mapping logic in create_comparisons.py
 ```
-Dependencies
+###Dependencies
+```
 See requirements.txt for the full list. Key libraries include:
 ```
 opencv-python: Video and frame processing
@@ -133,6 +140,7 @@ Pillow: Image manipulation and text overlays
 ultralytics: YOLOv8 for object detection
 numpy: Array operations
 ```
-License
+###License
+```
 This project is licensed under the MIT License. See the LICENSE file for details.
 ```
