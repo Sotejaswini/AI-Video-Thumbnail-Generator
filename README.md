@@ -6,7 +6,8 @@ The **AI Video Thumbnail Generator** is an AI-powered tool that processes videos
 
 ### Video Explanation
 Watch a detailed explanation of the approach, implementation, and results:
- ![https://drive.google.com/file/d/19vVmQrljInf9PT6pCNu1iATCcEmjod6h/view?usp=sharing]
+## 📽️ Demo Video
+[🔗 Watch the Demo Video](https://drive.google.com/file/d/19vVmQrljInf9PT6pCNu1iATCcEmjod6h/view?usp=sharing)
 This project demonstrates skills in Python, OpenCV, PIL, YOLO, and debugging in a WSL environment.
 
 ### Key Highlights:
@@ -34,7 +35,7 @@ This project demonstrates skills in Python, OpenCV, PIL, YOLO, and debugging in 
 
 ---
 ## Project Structure
-
+```
 ├── videos/ # Input videos (e.g., video1.mp4)
 ├── thumbnails/ # Generated thumbnails
 ├── original_frames/ # Extracted original frames
@@ -46,21 +47,7 @@ This project demonstrates skills in Python, OpenCV, PIL, YOLO, and debugging in 
 ├── yolov8n.pt # YOLOv8 model weights
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
-Project Structure
-
-├── videos/                    # Input videos (e.g., video1.mp4)
-├── thumbnails/                # Generated thumbnails
-├── original_frames/           # Extracted original frames
-├── comparisons/               # Side-by-side comparison images
-├── thumbnail_generator.py     # Main script for thumbnail generation
-├── extract_frames.py          # Extracts original frames
-├── create_comparisons.py      # Creates comparison images
-├── ariblk.ttf                 # Font file for text overlay
-├── yolov8n.pt                 # YOLOv8 model weights
-├── requirements.txt           # Dependencies
-└── README.md                  # Project documentation
-
-Deliverables
+```
 ---
 
 ## Prerequisites
@@ -123,28 +110,29 @@ Original Frame:
 original_frames/video1.mp4_original.jpg
 
 Comparison Image:
-comparisons/video1_converted_comparison.jpg
-
+comparisons/video1_comparison.jpg
+```
 Challenges & Solutions
 WSL Video Access Issue
 Problem: OpenCV failed to read certain videos
 Solution: Used FFmpeg to re-encode videos for compatibility
-
+```
 Deprecated PIL Method
 Problem: textsize() deprecated in newer PIL versions
 Solution: Replaced with textbbox() for text dimension calculation
-
+```
 Filename Mismatch
 Problem: Inconsistent naming between thumbnails and original frames
 Solution: Standardized naming conventions in thumbnail_generator.py and fixed mapping logic in create_comparisons.py
-
+```
 Dependencies
 See requirements.txt for the full list. Key libraries include:
-
+```
 opencv-python: Video and frame processing
 Pillow: Image manipulation and text overlays
 ultralytics: YOLOv8 for object detection
 numpy: Array operations
-
+```
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+```
