@@ -133,7 +133,6 @@ Solution: Standardized naming conventions in thumbnail_generator.py and fixed ma
 Dependencies
 ```
 See requirements.txt for the full list. Key libraries include:
-```
 opencv-python: Video and frame processing
 Pillow: Image manipulation and text overlays
 ultralytics: YOLOv8 for object detection
