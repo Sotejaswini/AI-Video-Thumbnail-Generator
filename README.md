@@ -6,7 +6,7 @@ The **AI Video Thumbnail Generator** is an AI-powered tool that processes videos
 
 ### Video Explanation
 Watch a detailed explanation of the approach, implementation, and results:
- [Insert Google Drive or YouTube Link Here]
+ [https://drive.google.com/file/d/19vVmQrljInf9PT6pCNu1iATCcEmjod6h/view?usp=sharing]
 This project demonstrates skills in Python, OpenCV, PIL, YOLO, and debugging in a WSL environment.
 
 ### Key Highlights:
