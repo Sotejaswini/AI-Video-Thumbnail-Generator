@@ -85,7 +85,7 @@ Usage
 Single Video:
 
 ```bash
-python3 thumbnail_generator.py --video videos/video1_converted.mp4 --text "Watch Now!"
+python3 thumbnail_generator.py --video videos/video1.mp4 --text "Watch Now!"
 ```
 Batch Mode (All Videos):
 ```bash
