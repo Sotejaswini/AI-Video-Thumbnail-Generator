@@ -6,10 +6,8 @@ The **AI Video Thumbnail Generator** is an AI-powered tool that processes videos
 
 ### Video Explanation
 Watch a detailed explanation of the approach, implementation, and results:
-```
-## Demo Video
 [🔗 Watch the Demo Video](https://drive.google.com/file/d/19vVmQrljInf9PT6pCNu1iATCcEmjod6h/view?usp=sharing)
-```
+
 This project demonstrates skills in Python, OpenCV, PIL, YOLO, and debugging in a WSL environment.
 
 ### Key Highlights:
@@ -140,7 +138,6 @@ Pillow: Image manipulation and text overlays
 ultralytics: YOLOv8 for object detection
 numpy: Array operations
 ```
-###License
-```
-This project is licensed under the MIT License. See the LICENSE file for details.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 ```
