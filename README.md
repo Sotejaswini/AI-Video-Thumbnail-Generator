@@ -138,4 +138,6 @@ Pillow: Image manipulation and text overlays
 ultralytics: YOLOv8 for object detection
 numpy: Array operations
 ```
+## License
 
+This project is licensed under the MIT License. See the LICENSE file for details.
